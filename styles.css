@@ -3,9 +3,62 @@
     src: url(./Resources/Fonts/MochiyPopPOne-Regular.ttf);
   }
 
+  @font-face {
+    font-family: 'Roboto';
+    src: url(./Resources/Fonts/Roboto-Bold.ttf);
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    src: url(./Resources/Fonts/Roboto-Italic.ttf);
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    src: url(./Resources/Fonts/Roboto-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: 'Titillium Web';
+    src: url(./Resources/Fonts/TitilliumWeb-Bold.ttf);
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: 'Titillium Web';
+    src: url(./Resources/Fonts/TitilliumWeb-Italic.ttf);
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'Titillium Web';
+    src: url(./Resources/Fonts/TitilliumWeb-Regular.ttf);
+
+  }
+
+  @font-face {
+    font-family: 'Ubuntu';
+    src: url(./Resources/Fonts/Ubuntu-Bold.ttf);
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: 'Ubuntu';
+    src: url(./Resources/Fonts/Ubuntu-Italic.ttf);
+    font-style: italic;
+ }
+
+ @font-face {
+    font-family: 'Ubuntu';
+    src: url(./Resources/Fonts/Ubuntu-Regular.ttf);
+ }
+
 
 h1{
     font-family: 'Mochiy Pop P One', sans-serif;
+    text-align: center;
 }
 section{
     border:solid 1px black;
@@ -16,10 +69,11 @@ h2{
     text-indent: 10px;
 }
 
-div.cool_blue{
-    background-color: #2d5dcc;
-    color: white;
-    text-align: center;
+h3{
+    text-decoration: underline;
+}
+
+div{
     width: 600px;
     height: 70px;
     margin: 10px;
@@ -28,56 +82,52 @@ div.cool_blue{
     padding-bottom: 50px;
     font-family: 'Mochiy Pop P One', sans-serif;
     display: inline-block;
+    text-align: center;
+}
+
+div.cool_blue{
+    background-color: #2d5dcc;
+    color: white;
+
 }
 
 div.pink{
     background-color: #d957d9;
     color: black;
-    text-align: center;
-    width: 600px;
-    height: 70px;
-    margin: 10px;
-    text-indent: 1;
-    padding-top: 10px;
-    padding-bottom: 50px;
-    font-family: 'Mochiy Pop P One', sans-serif;
-    display: inline-block;
-
 
 }
 
 div.mint_green{
     background-color: #4fe0b0;
     color: black;
-    text-align: center;
-    width: 600px;
-    height: 70px;
-    margin: 10px;
-    text-indent: 1;
-    padding-top: 10px;
-    padding-bottom: 50px;
-    font-family: 'Mochiy Pop P One', sans-serif;
-    display: inline-block;
-
-
 }
 
 div.beige{
     background-color: #efd9ca;
     color: black;
     text-align: center;
-    width: 600px;
-    height: 70px;
-    margin: 10px;
-    text-indent: 1;
-    padding-top: 10px;
-    padding-bottom: 50px;
-    font-family: 'Mochiy Pop P One', sans-serif;
-    display: inline-block;
-
-
 }
 
 section{
-    margin-bottom: 10px;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
+
+div.roboto{
+    font-family: "Roboto";
+}
+div.titillium_web{
+    font-family: "Titillium Web";
+}
+
+div.ubuntu{
+    font-family: "Ubuntu";
+}
+
+.bold{
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
+
