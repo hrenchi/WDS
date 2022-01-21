@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Mochiy Pop P One';
+    src: url(./Resources/Fonts/MochiyPopPOne-Regular.ttf);
+  }
+
+
+h1{
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+section{
+    border:solid 1px black;
+}
+
+h2{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    text-indent: 10px;
+}
+
+div.cool_blue{
+    background-color: #2d5dcc;
+    color: white;
+    text-align: center;
+    width: 600px;
+    height: 70px;
+    margin: 10px;
+    text-indent: 1;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    display: inline-block;
+}
+
+div.pink{
+    background-color: #d957d9;
+    color: black;
+    text-align: center;
+    width: 600px;
+    height: 70px;
+    margin: 10px;
+    text-indent: 1;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    display: inline-block;
+
+
+}
+
+div.mint_green{
+    background-color: #4fe0b0;
+    color: black;
+    text-align: center;
+    width: 600px;
+    height: 70px;
+    margin: 10px;
+    text-indent: 1;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    display: inline-block;
+
+
+}
+
+div.beige{
+    background-color: #efd9ca;
+    color: black;
+    text-align: center;
+    width: 600px;
+    height: 70px;
+    margin: 10px;
+    text-indent: 1;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    display: inline-block;
+
+
+}
+
+section{
+    margin-bottom: 10px;
+}
