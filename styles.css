@@ -60,17 +60,49 @@ h1{
     font-family: 'Mochiy Pop P One', sans-serif;
     text-align: center;
 }
+
+#H1des{
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    text-align: left;
+    text-indent: 10px;
+}
 section{
     border:solid 1px black;
+
 }
 
 h2{
     font-family: 'Mochiy Pop P One', sans-serif;
     text-indent: 10px;
+    color: white ;
+    background-color: black;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin: 0;
+}
+
+#H2des{
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    text-align: left;
+    text-indent: 10px;
+    background-color: white;
+    color: black;
+    padding: 0;
 }
 
 h3{
     text-decoration: underline;
+}
+
+p{
+    text-indent: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Ubuntu";
 }
 
 div{
