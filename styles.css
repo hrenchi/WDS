@@ -144,6 +144,26 @@ section{
     margin-bottom: 50px;
     padding-bottom: 50px;
 }
+nav ul{
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    border: aquamarine solid 1px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 50px;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+nav a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: 0;
+}
 
 div.roboto{
     font-family: "Roboto";
